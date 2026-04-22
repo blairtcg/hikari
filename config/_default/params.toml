@@ -89,14 +89,14 @@
     sizes = [16, 32, 48]
 
 [style]
-    primary = "#d43900"
-    secondary = "#6c757d"
-    success = "#198754"
-    info = "#0dcaf0"
-    warning = "#ffc107"
-    danger = "#dc3545"
-    light = "#f8f9fa"
-    dark = "#212529"
+    primary = "#cba6f7"   # Catppuccin Mocha: Mauve
+    secondary = "#6c7086" # Catppuccin Mocha: Overlay0
+    success = "#a6e3a1"   # Catppuccin Mocha: Green
+    info = "#89dceb"      # Catppuccin Mocha: Sky
+    warning = "#f9e2af"   # Catppuccin Mocha: Yellow
+    danger = "#f38ba8"    # Catppuccin Mocha: Red
+    light = "#eff1f5"     # Catppuccin Latte: Base (for light contrast)
+    dark = "#1e1e2e"      # Catppuccin Mocha: Base (for dark contrast)
     themeOpacity = "10"
     darkModeShade = "20%"
     darkModeTint = "40%"
