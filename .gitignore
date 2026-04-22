@@ -1,0 +1,11 @@
+/_vendor
+/public
+/prebuild
+prebuild-headers/
+prebuild-headers-dev/
+prebuild-headers-prod/
+resources/
+node_modules/
+
+.DS_store
+.hugo_build.lock
