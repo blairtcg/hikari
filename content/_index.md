@@ -35,15 +35,12 @@ content_blocks:
     heading:
       preheading: "Documentation"
       title: "Jump to a section"
-      content: "All pages include breadcrumbs and a full table of contents."
+      content: "Find anything your looking for here!"
       align: center
     justify: center
 
   # ─── 9. CARDS ────────────────────────────────────────────────────────────
   - _bookshop_name: cards
-    heading:
-      title: "Explore the docs"
-      align: center
     background:
       color: body-tertiary
       subtle: false
@@ -88,46 +85,6 @@ content_blocks:
           Latest release notes, bug fixes, and a roadmap of
           upcoming features.
         url: "https://blairtcg.github.io/hikari/docs/changelog/"
-
-  # ─── 13. FAQ (last) ───────────────────────────────────────────────────────
-  - _bookshop_name: faq
-    heading:
-      preheading: "Help"
-      title: "Frequently asked questions"
-      content: "Can't find your answer? Ask in the support server."
-      align: center
-    background:
-      color: body-tertiary
-      subtle: false
-    items:
-      - title: "Is Blair free to use?"
-        description: >-
-          Yes — Blair is completely free. Core features will always remain free.
-          Optional premium perks may be introduced in the future, but they will
-          never gate essential functionality.
-      - title: "How do I invite Blair to my server?"
-        description: >-
-          Click Invite Blair above or use the invite link in the navigation bar.
-          You will need the Manage Server Discord permission on the target server.
-      - title: "What permissions does Blair need?"
-        description: >-
-          At minimum — Read Messages, Send Messages, Embed Links, and Add Reactions.
-          For moderation commands: Kick Members, Ban Members, and Manage Roles.
-          Granting Administrator is simpler but optional.
-      - title: "A command is not working. What should I do?"
-        description: >-
-          Check that Blair has the required permissions in that channel. Verify
-          you are using a valid slash command (type /). If the issue persists,
-          open a ticket in the support server with your server ID and a screenshot.
-      - title: "Can I self-host Blair?"
-        description: >-
-          Blair is not currently open-source. We host it centrally to ensure
-          reliability and rapid updates. Self-hosting may be considered in a
-          future roadmap item.
-      - title: "How do I report a bug or request a feature?"
-        description: >-
-          Use the /feedback command inside Discord to submit a report directly,
-          or post in the #suggestions channel of the support server.
 
 ---
 
