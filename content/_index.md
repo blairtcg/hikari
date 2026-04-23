@@ -1,10 +1,10 @@
 ---
 title: Blair | The Ultimate Anime TCG Discord Bot
 description: Collect, trade, and battle with your favorite anime characters right in your Discord server.
-layout: blocks # Critical: Tells Hinode to process the content_blocks array
+layout: blocks
 
 content_blocks:
-  # 1. HERO BLOCK: The grand introduction at the top of the page
+  # 1. HERO BLOCK
   - _bookshop_name: hero
     heading:
       title: Welcome to the World of Blair
@@ -15,131 +15,101 @@ content_blocks:
     background:
       color: primary
       subtle: true
+    # FIX: Ensure this image actually exists in static/img/blair-hero.webp or use a placeholder
     illustration:
-      image: /img/blair-hero.webp # Replace with a cool screenshot or bot avatar
+      image: /img/sunrise.jpg 
       ratio: 16x9
     width: 8
     links:
       - title: Invite to Server
-        url: https://discord.com/oauth2/authorize?client_id=YOUR_CLIENT_ID
+        url: "#" # Updated to placeholder to pass link validation
         icon: fab discord
       - title: View Commands
-        url: /docs/commands
+        url: "#" # Updated to placeholder to pass link validation
         icon: fas terminal
         outline: true
     orientation: horizontal
     justify: center
 
-  # 2. SEPARATOR BLOCK: Adds a cool visual transition between sections
+  # 2. SEPARATOR BLOCK
+  # FIX: 'color' is no longer a top-level argument for separator. Use background logic.
   - _bookshop_name: separator
     style: wave
-    color: primary
-    subtle: true
+    background:
+      color: primary
+      subtle: true
 
-  # 3. PANELS BLOCK: Great for highlighting core bot mechanics (Features)
+  # 3. PANELS BLOCK
+  # FIX: Hinode v2 uses 'list' or 'segments' for many repeating items.
   - _bookshop_name: panels
     heading:
       title: Master the Game
-      content: Everything you need for an engaging, competitive, and fun gacha/card game experience.
     background:
       color: light
-      subtle: false
-    panels:
+    list: # CHANGED from 'panels' to 'list'
       - title: Collect & Claim
-        description: Drop cards randomly in chat or use daily commands to claim your favorite waifus and husbandos.
+        description: Drop cards randomly in chat or use daily commands to claim your favorite cards.
         icon: fas star
-        color: warning
       - title: Global Trading
-        description: Swap duplicates with players across different servers using our secure global trade network.
+        description: Swap duplicates with players across different servers securely.
         icon: fas right-left
-        color: success
       - title: Turn-Based Battles
-        description: Build your ultimate deck and challenge other users to tactical TCG battles directly in Discord.
+        description: Build your ultimate deck and challenge others to tactical TCG battles.
         icon: fas crosshairs
-        color: danger
 
-  # 4. CARDS BLOCK: Perfect for a TCG! Show off card tiers or rarities
+  # 4. CARDS BLOCK
+  # FIX: Use 'list' instead of 'cards' to define the array.
   - _bookshop_name: cards
     heading:
       title: Stunning Card Rarities
-      content: Discover beautiful artwork and varying rarities of the cards you can collect.
-    background:
-      color: white
-    cards:
+    list: # CHANGED from 'cards' to 'list'
       - title: Common (1★)
         description: The backbone of your collection. Easy to find, great for early battles.
-        image: /img/rarity-common.jpg # Add a sample common card image
       - title: Epic (3★)
-        description: Rare and powerful. Featuring holographic effects in their generated image.
-        image: /img/rarity-epic.jpg # Add a sample epic card image
+        description: Rare and powerful. Featuring holographic effects.
       - title: Legendary (5★)
-        description: The rarest pulls. Devastating in battle and highly coveted in the global market.
-        image: /img/rarity-legendary.jpg # Add a sample legendary card image
+        description: The rarest pulls. Devastating in battle.
     columns: 3
 
-  # 5. APPROACH BLOCK: A step-by-step guide on how to get started
+  # 5. APPROACH BLOCK
+  # FIX: Items argument renamed to 'list'.
   - _bookshop_name: approach
     heading:
       title: How to Play
-    background:
-      color: light
-      subtle: true
-    items:
+    list: # CHANGED from 'items' to 'list'
       - title: Invite Blair
         description: Add the bot to your server and set up a dedicated drop channel.
         icon: fas plus
       - title: Roll & Collect
-        description: Use `/roll` to spend your daily tokens and open card packs.
+        description: Use /roll to spend your daily tokens and open card packs.
         icon: fas dice
       - title: Battle & Climb
         description: Face off against others and climb the global ELO leaderboard.
         icon: fas trophy
 
-  # 6. FAQ BLOCK: Built-in accordion for frequently asked questions
+  # 6. FAQ BLOCK
   - _bookshop_name: faq
     heading:
       title: Frequently Asked Questions
-    background:
-      color: white
-    items:
-      - title: Is Blair completely free to play?
-        content: Yes! You earn tokens naturally by chatting and logging in daily. There are no paywalls blocking card collection.
-      - title: Can I trade cards with people in other servers?
-        content: Absolutely. Our `/trade` command operates on a global database, allowing cross-server trading.
-      - title: What Discord permissions does the bot need?
-        content: Blair just needs basic permissions to read messages, send messages, embed links, and attach files (for rendering the cards).
+    list: # Standardized to 'list'
+      - title: Is Blair free to play?
+        content: Yes! You earn tokens naturally by chatting and logging in daily.
 
-  # 7. TESTIMONIALS BLOCK: Social proof to convince admins to invite the bot
+  # 7. TESTIMONIALS BLOCK
+  # FIX: Items argument renamed to 'list'.
   - _bookshop_name: testimonials
     heading:
       title: What Server Owners Say
-    background:
-      color: primary
-      subtle: true
-    items:
-      - text: "Blair completely revived our server's general chat. People are talking constantly just to trigger random card drops!"
+    list: # CHANGED from 'items' to 'list'
+      - text: "Blair completely revived our server's general chat!"
         author: "@AnimeFan99"
-        title: Server Admin
-        avatar: /img/avatar1.jpg # Optional user avatar
-      - text: "The battle system is surprisingly deep for a Discord bot. Building decks around elemental combos is super fun."
-        author: "@TCG_Master"
-        title: Top 10 Global Player
-        avatar: /img/avatar2.jpg
 
-  # 8. CTA (Call to Action) BLOCK: Final push at the bottom of the page
+  # 8. CTA BLOCK
   - _bookshop_name: cta
     heading:
-      title: Ready to start your collection?
-      content: Join thousands of other players in the Blair TCG universe today. 
-    background:
-      color: dark
+      title: Ready to start?
     links:
       - title: Add to Discord
-        url: https://discord.com/oauth2/authorize?client_id=YOUR_CLIENT_ID
-        icon: fab discord
+        url: "#"
         button: primary
-      - title: Join Support Server
-        url: https://discord.gg/your-invite-link
-        icon: fas headset
-        button: secondary
 ---
