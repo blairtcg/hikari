@@ -4,33 +4,6 @@ description: Official documentation for Blair — your all-in-one Discord bot.
 
 content_blocks:
 
-  # ─── 1. HERO ─────────────────────────────────────────────────────────────
-  - _bookshop_name: hero
-    heading:
-      title: "Blair · Hikari Docs"
-      content: >-
-        The official documentation for **Blair** — your Anime TCG Discord bot.
-        Commands, configuration, and release notes — all in one place.
-      width: 7
-    background:
-      color: primary
-      subtle: true
-    illustration:
-      image: /img/sunrise.jpg
-      ratio: 16x9
-    width: 8
-    links:
-      - title: Get started
-        url: "https://blairtcg.github.io/hikari/docs/"
-        icon: fas chevron-right
-      - title: Command reference
-        url: "https://blairtcg.github.io/hikari/docs/commands/"
-        icon: fas terminal
-    orientation: horizontal
-    justify: center
-
-  # ─── 2. SEPARATOR ────────────────────────────────────────────────────────
-  - _bookshop_name: separator
 
   # ─── 3. FEATURED ─────────────────────────────────────────────────────────
   - _bookshop_name: featured
@@ -56,65 +29,6 @@ content_blocks:
         url: "https://discord.gg/YOUR_INVITE"
         icon: fas headset
         outline: true
-
-  # ─── 4. SEPARATOR ────────────────────────────────────────────────────────
-  - _bookshop_name: separator
-
-  # ─── 5. HEADING ──────────────────────────────────────────────────────────
-  - _bookshop_name: heading
-    heading:
-      preheading: "Features"
-      title: "What Blair can do"
-      content: "A feature-rich Anime TCG Discord bot built for communities of all sizes."
-      align: center
-    justify: center
-
-  # ─── 6. APPROACH ─────────────────────────────────────────────────────────
-  - _bookshop_name: approach
-    heading:
-      title: "A bot built for every server"
-      content: >-
-        From small friend groups to large community servers, Blair adapts
-        to your needs with powerful, modular features.
-      align: center
-    background:
-      color: body-tertiary
-      subtle: false
-    icon_style: text-primary
-    elements:
-      - title: Moderation
-        icon: fas shield-halved
-        content: >-
-          Auto-mod, infraction logging, warns, mutes, and bans —
-          fully configurable per channel and role.
-      - title: Music playback
-        icon: fas music
-        content: >-
-          Stream high-quality audio from YouTube, Spotify, and SoundCloud
-          with full queue management, shuffle, and audio filters.
-      - title: Economy & games
-        icon: fas coins
-        content: >-
-          Engage members with a full in-server economy, daily rewards,
-          leaderboards, shops, and multiplayer minigames.
-      - title: Custom commands
-        icon: fas terminal
-        content: >-
-          Create server-specific slash commands, auto-responses, and
-          rich embeds — zero coding required.
-      - title: Logging & audit
-        icon: fas clipboard-list
-        content: >-
-          Full audit trail for joins, leaves, edits, deletions, and
-          all moderator actions — output to any channel.
-      - title: Role management
-        icon: fas users-gear
-        content: >-
-          Reaction roles, button roles, auto-roles on join, and
-          role menus — manage your hierarchy with ease.
-
-  # ─── 7. SEPARATOR ────────────────────────────────────────────────────────
-  - _bookshop_name: separator
 
   # ─── 8. HEADING ──────────────────────────────────────────────────────────
   - _bookshop_name: heading
@@ -174,31 +88,6 @@ content_blocks:
           Latest release notes, bug fixes, and a roadmap of
           upcoming features.
         url: "https://blairtcg.github.io/hikari/docs/changelog/"
-
-  # ─── 10. SEPARATOR ───────────────────────────────────────────────────────
-  - _bookshop_name: separator
-
-  # ─── 11. CTA ─────────────────────────────────────────────────────────────
-  - _bookshop_name: cta
-    heading:
-      title: "Ready to get started?"
-      content: >-
-        Read the documentation, invite Blair to your server, and take your
-        Discord community to the next level — for free.
-    background:
-      color: primary
-      subtle: false
-    links:
-      - title: "Read the docs"
-        url: "https://blairtcg.github.io/hikari/docs/"
-        icon: fas book-open
-      - title: "Invite Blair"
-        url: "https://discord.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&scope=bot+applications.commands&permissions=8"
-        icon: fab discord
-        outline: true
-
-  # ─── 12. SEPARATOR ───────────────────────────────────────────────────────
-  - _bookshop_name: separator
 
   # ─── 13. FAQ (last) ───────────────────────────────────────────────────────
   - _bookshop_name: faq
