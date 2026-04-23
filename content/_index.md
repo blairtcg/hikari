@@ -1,5 +1,5 @@
 ---
-title: Welcome to Hikari!
+title: Hikari ✨
 description: Official documentation for Blair — your all-in-one Discord bot.
 
 content_blocks:
@@ -34,7 +34,6 @@ content_blocks:
   - _bookshop_name: heading
     heading:
       preheading: "Documentation"
-      title: "Jump to a section"
       content: "Find anything your looking for here!"
       align: center
     justify: center
@@ -90,7 +89,7 @@ content_blocks:
 
 {{< breadcrumb >}}
 
-## Welcome to Hikari
+## Welcome to Hikari!
 
 This is the official documentation for **Blair**, your Anime TCG Discord bot!
 
