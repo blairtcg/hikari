@@ -89,14 +89,14 @@
     sizes = [16, 32, 48]
 
 [style]
-    primary = "#cba6f7"   # Catppuccin Mocha: Mauve
-    secondary = "#6c7086" # Catppuccin Mocha: Overlay0
-    success = "#a6e3a1"   # Catppuccin Mocha: Green
-    info = "#89dceb"      # Catppuccin Mocha: Sky
-    warning = "#f9e2af"   # Catppuccin Mocha: Yellow
-    danger = "#f38ba8"    # Catppuccin Mocha: Red
-    light = "#eff1f5"     # Catppuccin Latte: Base (for light contrast)
-    dark = "#1e1e2e"      # Catppuccin Mocha: Base (for dark contrast)
+    primary = "#FFD166"   # Shinigami Gold: The iconic color of Lord Death's mask details and the sun.
+    secondary = "#B5A8B9" # Death City Stone: A cool-toned, muted purple-grey reflecting the gothic architecture.
+    success = "#8DE0A6"   # Witch Green: A bright, toxic-yet-friendly green inspired by magic and Vector spells.
+    info = "#82CFFF"      # Resonance Blue: The classic, vibrant cyan of a glowing, healthy human soul.
+    warning = "#FFB86C"   # Pumpkin Orange: The laughing sun, Blair's magic, and general Halloween vibes.
+    danger = "#FF99A8"    # Madness Red: Maka's coat and Kishin blood, lightened to a soft crimson to pass AAA contrast.
+    light = "#F4F0F8"     # Bone White: Scythe bone and spirit energy, providing absolute max contrast for text.
+    dark = "#100C14"      # Shibusen Night: A near-black, deep violet base that makes the neon "souls" pop.
     themeOpacity = "10"
     darkModeShade = "20%"
     darkModeTint = "40%"
@@ -104,7 +104,7 @@
     # themeFontPath = "https://fonts.googleapis.com/css2?family=Inter:wght@200;300;600&display=swap" # external path
     themeFontPath = "/fonts" # local path
     fontSizeBase = "1rem"
-    purge = true
+    purge = true 
 
 [schema]
     type = "Organization"
